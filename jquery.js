@@ -8,3 +8,9 @@ $(document).ready(function(){
 
     $("#fabian li").css("list-style", "none")
 })
+
+function(){
+    var thur = 1
+    if(var thur = 1)
+    console.console.log(("ggfg"));
+}
