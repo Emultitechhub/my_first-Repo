@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="jquery.js"> </script>
+    <script src="js/jquery-3.6.0.min.js"> </script>
+    <script src="src="https://code.jquery.com/jquery-3.6.0.min.js""></script>
+</head>
+<body>
+ <ul id="fabian">
+<li> Idara Akpabio</li>
+<li> Enene </li>
+<li> uwak mfon</li>
+<li> tim tim</li>
+<li> isong isong</li>
+<li> edem akpan</li>
+
+
+<input type="text" value="fname">
+<input type="submit" value="submit" id="submit">
+<input type="button" value="click me">
+ </ul>
+
+<script>
+$(document).ready(function(){
+    $("#submit").css("color", "blue")
+    $("#fabian li:last").css("color", "white")
+    
+
+    $("ul#fabian li:odd").css("background-color", "red");
+    $("ul#fabian li:even").css("background-color", "green");
+
+    $("#fabian li").css("list-style", "none")
+})
+
+$(function(){
+$("#mybutton").click(function(){
+    alert("i am loading")
+})
+
+})
+
+</script>
+<input type="button" name="mybutton" id="mybutton" value="hit me upp">
+    
+</body>
+</html>
